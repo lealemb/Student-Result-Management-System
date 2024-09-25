@@ -1,0 +1,31 @@
+.sidebar__NavLink {
+  padding: 12px 20px; /* Adjusting padding for better spacing */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Ensures the background color fills the entire width */
+}
+
+.sidebar__NavLink:hover {
+  background-color: #e0f7fa; /* Hover state color */
+  color: #2c387e; /* Text color change on hover */
+}
+
+.sidebar__NavLink.active {
+  background-color: #42a5f5; /* Active state background color */
+  color: #fff; /* White text when active */
+  font-weight: bold;
+}
+
+.sidebar__icon {
+  margin-right: 10px;
+  color: inherit; /* Ensures the icon color matches the text */
+}
+
+.sidebar__list {
+  padding: 0; /* Removing list padding to make items uniform */
+}
+
+.sidebar__item {
+  list-style: none; /* No bullet points for list items */
+}
